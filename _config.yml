@@ -1,0 +1,7 @@
+# Site settings
+title: Jekyll Dynamic Menu
+email: jnvsor@gmail.com
+description: A dynamically generated hierarchical menu in jekyll without plugins
+baseurl: "/jekyll-dynamic-menu"
+url: "http://jnvsor.github.io"
+github_username:  jnvsor

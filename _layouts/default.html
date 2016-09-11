@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div>
+          <h2>Automatic page url based menu</h2>
+          {% include automenu url='/' sort="url" reverse=false all=false %}
+        </div>
+        <div>
+          <h2>Data based custom menu</h2>
+          {% include datamenu menu=site.data.menu all=false %}
+        </div>
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

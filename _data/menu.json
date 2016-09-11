@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Pre-written menu in json/yaml/csv",
+        "url": "/about/",
+        "children": [
+            {
+                "title": "Sub about",
+                "url": "/about/sub/"
+            }
+        ]
+    },
+    {
+        "title": "Any order you like",
+        "url": "/page/sub2/",
+        "class": "test1",
+        "children": [
+            {
+                "title": "Any classes you like",
+                "url": "/page/",
+                "class": ["test1", "test2"],
+                "children": [
+                ]
+            },
+            {
+                "title": "Subpage",
+                "url": "/page/sub/index.html",
+                "children": [
+                    {
+                        "title": "Sub sub page",
+                        "url": "/page/sub/index.php/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Duplicate for all I care",
+        "url": "/page/sub2/"
+    },
+    {
+        "title": "Any classes you like",
+        "url": "/",
+        "class": ["page-heading"],
+    },
+    {
+        "title": "External urls, custom _target",
+        "url": "http://google.com",
+        "target": "_blank"
+    }
+]
