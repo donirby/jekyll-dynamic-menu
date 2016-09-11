@@ -2,7 +2,7 @@
 
 It's a dynamic menu for jekyll.
 
-[DEMO](http://jnvsor.github.io/jekyll-dynamic-menu/about/)
+[DEMO](http://donirby.github.io/jekyll-dynamic-menu/about/)
 
 ## Features
 
