@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-###Features
+### Features
 
 * Dynamically generated or custom from JSON/YAML/CSV
 * Hierarchical
